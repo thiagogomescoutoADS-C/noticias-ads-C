@@ -73,15 +73,9 @@ margin-bottom: 1.5rem;
     padding: 1.5rem 1.3rem;
 }
 
-.bb{
+.margin-border-padding {
     border-bottom: 1px solid var(--gunmetal);
-}
-
-.mb{
     margin-bottom: 1.75rem;
-}
-
-.pb{
     padding-bottom: 1.75rem;
 }
 
@@ -104,5 +98,35 @@ margin-bottom: 1.5rem;
     color: var(--silver);
     font-size: 0.9375rem;
     line-height: 1.625rem;
+}
 
+.terceira-secao > div{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.terceira-secao img{
+    max-width: 6.25rem;
+}
+
+.terceira-secao strong{
+    color: var(--silver);
+    font-size: 2rem;
+    line-height: 100%;
+}
+
+.terceira-secao h2{
+    color: var(--dark-blue);
+    font-size: 1.25rem;
+    font-size: 800;
+    line-height: 1.5rem;
+    margin-block: 0.6rem;
+}
+
+.terceira-secao p {
+    font-size: 0.9375rem;
+    line-height: 1.625rem;
+    color: var(--gunmetal);
 }
